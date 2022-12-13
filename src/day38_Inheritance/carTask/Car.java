@@ -1,4 +1,4 @@
 package day38_Inheritance.carTask;
 
-public class Car x {
+public class Car{
 }
