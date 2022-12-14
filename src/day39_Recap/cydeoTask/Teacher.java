@@ -10,4 +10,10 @@ public class Teacher extends Employee{
     public void work() {
         System.out.println(getJobTitle()+" "+getName()+" is teaching");
     }
-}
+}/* 5. Create a sub class of Employee named Teacher
+
+            Override the work method
+
+
+
+*/
