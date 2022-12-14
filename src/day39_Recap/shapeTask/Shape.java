@@ -21,7 +21,7 @@ public class Shape {
     }
 
     public Shape(String name) {
-       setName(name);e;
+       setName(name);
     }
     public double area(){
         return 0;

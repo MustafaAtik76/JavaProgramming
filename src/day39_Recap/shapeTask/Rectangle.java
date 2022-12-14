@@ -27,4 +27,31 @@ public class Rectangle extends Shape{
         }
         this.width = width;
     }
+
+    public Rectangle(String name, double length, double width) {
+        super(name);
+        setLength(length);
+        setWidth(width);
+    }
+
+    @Override
+    public double area() {
+        return length * width;
+    }
+
+    @Override
+    public double perimeter() {
+        return (length + width) * 2;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                ", area='" + area() + '\''+
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+
+    }
 }
