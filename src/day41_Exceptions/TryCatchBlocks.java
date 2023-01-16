@@ -77,6 +77,7 @@ public class TryCatchBlocks {
         try {
             FileInputStream file = new FileInputStream("File path");
         }catch (FileNotFoundException e){
+            System.out.println("e.getMessage() = " + e.getMessage());
             e.printStackTrace();
         }
     }
