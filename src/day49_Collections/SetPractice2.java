@@ -9,11 +9,11 @@ public class SetPractice2 {
         String[] arr = {"Wooden Spoon", "Book", "Pen", "Phone", "Wooden Spoon",
                 "Wooden Spoon", "Wooden Spoon", "Wooden Spoon", "Milk", "Eggs", "Coke", "Paper towels"};
 
-       // arr = new LinkedHashSet<>( Arrays.asList(arr) ).toArray(new String[0]);
+       arr = new LinkedHashSet<>( Arrays.asList(arr) ).toArray(new String[0]);
 
-        Set<String> set1 = new HashSet<>( Arrays.asList(arr));
-        arr = set1.toArray(new String[0]);
-        System.out.println(set1);
+//        Set<String> set1 = new HashSet<>( Arrays.asList(arr));
+//        arr = set1.toArray(new String[0]);
+//        System.out.println(set1);
 
 
 
@@ -57,7 +57,7 @@ public class SetPractice2 {
 
         System.out.println("-----------------------------------------------");
 
-        String str = "eeeeeaaaabbbbccccdddeeeee";
+        String str = "eeeeeaaaabbbbccccddd";
 
         //  eabcd
         //  54434
