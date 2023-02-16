@@ -48,6 +48,8 @@ public class PolymorphismIntro {
         cydeoEmployees.add(teacher);
         cydeoEmployees.add(driver);
 
+        System.out.println("cydeoEmployees = " + cydeoEmployees);
+
 
         System.out.println("-------------------------------------------");
 

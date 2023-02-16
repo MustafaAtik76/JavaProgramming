@@ -35,6 +35,7 @@ public class PolymorphismPractice2 {
         for (Employee employee : employees) {
             if(employee instanceof Tester || employee instanceof Developer){
                 scrumMembers.add(employee);
+                System.out.println("employee = " + employee);
             }
         }
 
@@ -50,6 +51,8 @@ public class PolymorphismPractice2 {
 
             if(scrumMember instanceof Developer){
                 developers.add((Developer) scrumMember);
+
+                System.out.println("scrumMember = " + scrumMember);
             }
 
         }

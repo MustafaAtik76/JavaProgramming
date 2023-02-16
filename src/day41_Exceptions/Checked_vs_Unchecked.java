@@ -41,7 +41,7 @@ public class Checked_vs_Unchecked {
 
         System.out.println("Hello");
 
-        // Thread.sleep(3000);
+        //Thread.sleep(3000);
 
         System.out.println("Cydeo");
 
